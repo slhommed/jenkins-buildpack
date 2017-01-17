@@ -4,5 +4,5 @@ cat << EOF
 addons: []
 config_vars: []
 default_process_types:
-  web: java -jar jenkins.war --httpPort=\$PORT --httpListenAddress=\$CF_INSTANCE_INTERNAL_IP --accessLoggerClassName=winstone.accesslog.SimpleAccessLogger
+  web: java -jar jenkins.war --httpPort=\$PORT --httpListenAddress=0.0.0.0 --accessLoggerClassName=winstone.accesslog.SimpleAccessLogger
 EOF
