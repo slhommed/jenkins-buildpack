@@ -33,6 +33,5 @@ Each time you run your app in another container, this password will be changed.
 
 ### Contribution and ideas
 
-If you have any ideas that can be added, you can [email me directly](mailto:lomov.as@gmail.com).
 
 May CI be with you and may you be one with CI!
