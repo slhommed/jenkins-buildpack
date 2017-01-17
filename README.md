@@ -4,7 +4,7 @@
 
 This is special buildpack to run jenkins inside Cloud Foundry from war file taken from [the official site](http://mirrors.jenkins-ci.org/war/latest/jenkins.war). 
 
-This buildpack intended to be just PoC, showing that the range applications that can be run of Cloud Foundry is very wide. You can get more details on how and why this buildpack was built in [this blog post](http://blog.altoros.com/creating-a-custom-cloud-foundry-buildpack-from-scratch-whats-under-the-hood.html). You need to understand that Jenkins deployed to Cloud Foundry with this buildpack has a number of limitations, for instance it uses file system to store blobs and can't be scaled. This is why it should be additionally configured. For production grade deployments I would recomend to use [jenkins boshreleas](https://github.com/cloudfoundry-community/jenkins-boshrelease).
+This buildpack intended to be just PoC, showing that the range applications that can be run of Cloud Foundry is very wide. You can get more details on how and why this buildpack was built in [this blog post](http://blog.altoros.com/creating-a-custom-cloud-foundry-buildpack-from-scratch-whats-under-the-hood.html). You need to understand that Jenkins deployed to Cloud Foundry with this buildpack has a number of limitations, for instance it uses the file system to store blobs and can't be scaled. This is why it should be additionally configured. For production grade deployments I would recomend to use [jenkins boshreleas](https://github.com/cloudfoundry-community/jenkins-boshrelease).
 
 ### How to use
 
